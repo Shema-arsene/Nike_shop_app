@@ -35,7 +35,7 @@ const Footer = () => {
                     className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
                     key={link.name}
                   >
-                    <a>{link.name}</a>
+                    <a href={link.link}>{link.name}</a>
                   </li>
                 ))}
               </ul>
